@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14155d4e-43d9-46c9-8c29-a8d00c21483a" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/java/com/example/demo/Controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_LOMBOK_DI/src/main/java/com/example/demo/Component/PersonComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_LOMBOK_DI/src/main/java/com/example/demo/Config/PersonDtoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_LOMBOK_DI/src/main/java/com/example/demo/Dto/PersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_LOMBOK_DI/src/test/java/com/example/demo/DiTests/DiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_LOMBOK_DI/src/test/java/com/example/demo/Dto/PersonDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_PARAM/src/main/java/com/example/demo/Config/TxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_PARAM/src/main/java/com/example/demo/Controller/ParameterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_PARAM/src/main/java/com/example/demo/Controller/simpleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_PARAM/src/main/webapp/WEB-INF/views/param/forward/init.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_PARAM/src/main/webapp/WEB-INF/views/param/forward/step1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_PARAM/src/main/webapp/WEB-INF/views/param/forward/step2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_PARAM/src/main/webapp/WEB-INF/views/param/redirect/init.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_PARAM/src/main/webapp/WEB-INF/views/param/redirect/step1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_PARAM/src/main/webapp/WEB-INF/views/param/redirect/step2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_PARAM/src/main/webapp/WEB-INF/views/simple/test1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_VALIDATION/src/main/java/com/example/demo/Controller/MemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_VALIDATION/src/main/java/com/example/demo/Domain/Common/Dto/MemoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_VALIDATION/src/main/webapp/WEB-INF/views/memo/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EXCEPTION/src/main/java/com/example/demo/Controller/ExceptionTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EXCEPTION/src/main/java/com/example/demo/Controller/GlobalException/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EXCEPTION/src/main/webapp/WEB-INF/views/except/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EXCEPTION/src/main/webapp/WEB-INF/views/except/ex1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EXCEPTION/src/main/webapp/WEB-INF/views/except/ex2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EXCEPTION/src/main/webapp/WEB-INF/views/except/ex3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EXCEPTION/src/main/webapp/WEB-INF/views/global_error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_EXCEPTION/src/main/webapp/WEB-INF/views/memo/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_DATASOURCE/src/main/java/com/example/demo/Config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_DATASOURCE/src/main/java/com/example/demo/Domain/Common/Dao/MemoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_DATASOURCE/src/main/java/com/example/demo/Domain/Common/Service/MemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_DATASOURCE/src/test/java/com/example/demo/Database/DataSourceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_DATASOURCE/src/test/java/com/example/demo/Domain/Common/Dao/MemoDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_DATASOURCE/src/test/java/com/example/demo/Domain/Common/Service/MemoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_JPA/src/main/java/com/example/demo/Config/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_JPA/src/main/java/com/example/demo/Domain/Common/Entity/Memo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_JPA/src/main/java/com/example/demo/Domain/Common/Repositroy/MemoRepositroy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_JPA/src/test/java/com/example/demo/Domain/Common/Repositroy/MemoRepositroyTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="32GdepBOsUVfYXnE4roCCCD6WIF" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="14155d4e-43d9-46c9-8c29-a8d00c21483a" name="변경" comment="" />
+      <created>1757050941487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757050941487</updated>
+    </task>
+    <servers />
+  </component>
+</project>
