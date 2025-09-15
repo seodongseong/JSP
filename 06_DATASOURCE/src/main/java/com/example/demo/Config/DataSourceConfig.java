@@ -18,10 +18,10 @@ public class DataSourceConfig {
         dataSource.setUsername("root");
         dataSource.setPassword("1234");
 
-        dataSource.setInitialSize(5);   //초기 연결개수
-        dataSource.setMaxTotal(10);     //최대 연결개수
-        dataSource.setMaxIdle(8);       //최대 유휴 연결 수
-        dataSource.setMinIdle(3);       //최소 유휴 연결 수
+        dataSource.setInitialSize(5);//초기 연결개수
+        dataSource.setMaxTotal(10);//최대 연결 개수
+        dataSource.setMaxIdle(8);//최대 유휴 연결 수
+        dataSource.setMinIdle(3);//최소 유휴 연결 수
 
         return dataSource;
     }
@@ -36,6 +36,5 @@ public class DataSourceConfig {
 
         return dataSource;
     }
-
 
 }

@@ -1,11 +1,14 @@
 package com.example.demo.Controller;
 
 import com.example.demo.Domain.Common.Dto.MemoDto;
+import com.example.demo.Domain.Common.Dto.PageDto;
+import com.example.demo.Domain.Common.Entity.Memo;
 import com.example.demo.Domain.Common.Service.MemoService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -61,6 +64,27 @@ public class MemoController {
             redirectAttributes.addFlashAttribute("message","메모등록완료! : " + insertedId );
         //뷰로 이동
         return insertedId!=null ? "redirect:/":"memo/add";
+    }
+
+    @GetMapping("/list")
+    public void list(
+//            @RequestParam(value="pageNo", defaultValue = "0") int pageNo,
+//            @RequestParam(value="amount", defaultValue = "10") int amount   //한번에 표시할 페이지
+            PageDto pageDto,
+            Model model
+    )throws Exception
+    {
+        log.info("GET /memo/list...pageDto : "+ pageDto);
+        //PageAble 요청객체
+        //파라미터 받기
+        //유효성체크 생략
+        //서비스 실행
+        Page<Memo> page = memoService.listMemo(pageDto);
+
+        //q뷰로 이동(+데이터)
+        model.addAttribute("page" ,page);
+        model.addAttribute("list" ,page.getContent());
+
     }
 
 }
