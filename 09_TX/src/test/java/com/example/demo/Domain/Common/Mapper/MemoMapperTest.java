@@ -16,16 +16,9 @@ class MemoMapperTest {
     @Autowired
     private MemoMapper memoMapper;
 
-//    @Test
-//    public void post1000(){
-//        for(int i=1;i<1000; i++){
-//            memoMapper.insert(new MemoDto(null, "content-"+i,"writer-"+i,LocalDateTime.now(),null));
-//        }
-//    }
-
     @Test
     public void t1() {
-        MemoDto dto = new MemoDto(1L, "내용1", "작성자1", LocalDateTime.now(), null);
+        MemoDto dto = new MemoDto(1111L, "내용1", "작성자1", LocalDateTime.now());
         memoMapper.insert(dto);
 
 
@@ -33,7 +26,7 @@ class MemoMapperTest {
 
     @Test
     public void t2() {
-        MemoDto dto = new MemoDto(1L, "내용1-UPDATE", "작성자1-UPDATE", null, null);
+        MemoDto dto = new MemoDto(1L, "내용1-UPDATE", "작성자1-UPDATE", null);
         memoMapper.update(dto);
     }
 
@@ -44,7 +37,7 @@ class MemoMapperTest {
 
     @Test
     public void t4() {
-        MemoDto dto = new MemoDto(null, "내용1", "작성자1", LocalDateTime.now(), null);
+        MemoDto dto = new MemoDto(null, "내용1", "작성자1", LocalDateTime.now());
         memoMapper.insert(dto);
         System.out.println(dto);
 
@@ -56,8 +49,8 @@ class MemoMapperTest {
 //        List<MemoDto> list = memoMapper.selectAll();
 //        list.forEach(System.out::println);
 
-    List<MemoDto> list = memoMapper.selectAllContains("writer", "2");
-    list.forEach(System.out::println);
+        List<MemoDto> list = memoMapper.selectAllContains("writer", "2");
+        list.forEach(System.out::println);
 
     }
 
@@ -75,13 +68,13 @@ class MemoMapperTest {
 
     @Test
     public void t7(){
-        MemoDto dto = new MemoDto(2000L, "내용1", "작성자1",LocalDateTime.now(),null);
+        MemoDto dto = new MemoDto(2000L, "내용1", "작성자1",LocalDateTime.now());
         memoMapper.insertXML(dto);
     }
 
     @Test
     public void t8() {
-        MemoDto dto = new MemoDto(2000L, "내용1-UPDATE", "작성자1-UPDATE", null, null);
+        MemoDto dto = new MemoDto(2000L, "내용1-UPDATE", "작성자1-UPDATE", null);
         memoMapper.updateXML(dto);
     }
 

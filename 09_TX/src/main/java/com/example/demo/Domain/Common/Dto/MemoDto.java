@@ -15,11 +15,13 @@ import java.time.LocalDateTime;
 @Data
 public class MemoDto {
 
+    private Long id;
     @NotBlank(message="TEXT는 필수 항목입니다.")
     private String text;
     @NotBlank(message="작성자를 입력하세요.")
     @Email(message="example@example.com 형식으로 입력하세요")
     private String writer;
 
+    private LocalDateTime createAt;
 
 }
