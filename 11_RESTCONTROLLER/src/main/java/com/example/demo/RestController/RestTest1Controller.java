@@ -18,7 +18,7 @@ import java.util.List;
 @RestController
 @Slf4j
 @RequestMapping("/rest")
-public class RestTestController {
+public class RestTest1Controller {
 
     @GetMapping(value="/getText",produces= MediaType.TEXT_PLAIN_VALUE)  // 헤더에 표시할 MediaType(다운로드 처리할때 여기가 건들여짐)
     public String t1(){
@@ -63,7 +63,5 @@ public class RestTestController {
         }
         return new ResponseEntity(null,HttpStatus.GATEWAY_TIMEOUT);
     }
-
-
 
 }
