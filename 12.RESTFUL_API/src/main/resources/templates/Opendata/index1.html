@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+
+</head>
+<body>
+
+    <h1>대구돌발정보확인 PAGE</h1>
+    <th:block th:each="item:${list}">
+        <p>
+            <span th:text="${item.LOCATION"> </span> &nbsp&nbsp
+            <span th:text="${item.INCIENTTITLE"> </span> &nbsp&nbsp
+            <span th:text="${item.LOGDATE"> </span> &nbsp&nbsp
+            <span th:text="${item.TROUBLEGRADE"> </span> &nbsp&nbsp
+            <span th:text="${item.STARTDATE"> </span> &nbsp&nbsp
+            <span th:text="${item.INCIDENTSUBCODE"> </span> &nbsp&nbsp
+        </p>
+    </th:block>
+</body>
+</html>
